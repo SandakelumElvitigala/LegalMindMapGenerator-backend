@@ -31,8 +31,8 @@ A FastAPI-based backend service that extracts structured graph data (entities, e
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/legal-mind-map-backend.git
-cd legal-mind-map-backend
+git clone https://github.com/SandakelumElvitigala/LegalMindMapGenerator-backend.git
+cd LegalMindMapGenerator-backend
 ```
 
 ### Install Dependencies
