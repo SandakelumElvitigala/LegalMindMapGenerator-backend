@@ -44,8 +44,8 @@ UPLOAD_DIR = Path("./uploads")
 UPLOAD_DIR.mkdir(exist_ok=True)
 
 # Groq API configuration
-GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_API_KEY = "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"
+GROQ_API_URL = os.getenv("GROQ_API_URL")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # Models
 class LegalGraph(BaseModel):
