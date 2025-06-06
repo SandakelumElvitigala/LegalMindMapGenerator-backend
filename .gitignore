@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# Uploads and temporary files
+uploads/
+*.log
+*.tmp
